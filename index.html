@@ -355,15 +355,24 @@
                     <p>Mise en conformité CNIL (obligation MFA dès 2M+ clients). Lot 1 : vérification email à l'authentification. Amélioration du taux de vérification de 78% à 84% tout en maintenant l'expérience utilisateur (suivi CES, taux de conversion).</p>
                   </div>
 
-                  <div class="project-card">
+                  <div class="project-card project-card--highlight">
                     <div class="project-card__header">
                       <span class="project-card__icon">❤️</span>
                       <div>
-                        <div class="project-card__name">Programme d'engagement / En Famille Plus</div>
-                        <div class="project-card__impact">Félicitations patron · Souscriptions dès la 1ère minute</div>
+                        <div class="project-card__name">Programme d'engagement — Fidélité Kiaber &amp; En Famille Plus</div>
+                        <div class="project-card__impact">~12 mois · Quasi-totalité du back · Souscriptions dès la 1ère minute · Salué jusqu'au PDG</div>
                       </div>
                     </div>
-                    <p>Développement du programme de fidélité Kiaber et de la fonctionnalité "En Famille Plus" (réduction tunnel commande, création famille, retours en magasin). Souscriptions enregistrées dès les premières minutes d'activation — projet salué jusqu'au PDG de Kiabi.</p>
+                    <p>Projet majeur de refonte du programme de fidélité Kiabi (6 à 12 mois), sur lequel j'ai assuré quasi-intégralement le développement backend. Architecture en 3 couches : <strong>Front → GraphQL (BFF b-account) → API e-loyalty → API externe de fidélité</strong>.</p>
+                    <ul class="project-card__list">
+                      <li>Création de comptes clients avec <strong>enrôlement fidélité immédiat</strong> et gestion du parcours d'embarquement complet</li>
+                      <li>Migration des comptes existants : <strong>imports / exports Reach5</strong>, ajout de custom fields, synchronisation des données clients</li>
+                      <li>Implémentation des <strong>pre-hooks Reach5</strong> (intégration à la création de compte) et post-actions associées</li>
+                      <li>Affichage des points fidélité dans le <strong>tunnel de commande</strong> et la <strong>page des commandes</strong></li>
+                      <li>Fonctionnalité <strong>"En Famille Plus"</strong> : réduction dans le tunnel, création de famille, retours en magasin</li>
+                      <li>Revue et conception technique en équipe — réflexion sur l'implémentation des hooks et des flux inter-services</li>
+                    </ul>
+                    <p style="margin-top:8px">Souscriptions enregistrées dès les premières minutes d'activation — projet salué jusqu'au PDG de Kiabi.</p>
                   </div>
 
                 </div>

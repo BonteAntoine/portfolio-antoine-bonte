@@ -1157,6 +1157,29 @@ img { display: block; max-width: 100%; }
   line-height: 1.65;
   margin: 0;
 }
+.project-card__list {
+  margin: 8px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.project-card__list li {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  padding-left: 14px;
+  position: relative;
+}
+.project-card__list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--blue);
+  font-size: 0.75rem;
+}
+.project-card__list strong { color: var(--text); }
 
 @media (max-width: 700px) {
   .kpi-grid { grid-template-columns: 1fr 1fr; }
