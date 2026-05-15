@@ -833,6 +833,37 @@ img { display: block; max-width: 100%; }
 }
 .yt-card__name { font-weight: 600; font-size: 0.9rem; color: var(--text); }
 .yt-card__sub { font-size: 0.75rem; color: var(--text-muted); margin-top: 2px; }
+.yt-card__stats {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 12px 24px;
+  border-top: 1px solid var(--border);
+  background: rgba(255,255,255,0.02);
+}
+.yt-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.yt-stat__num {
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.yt-stat__label {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.yt-stat__sep {
+  width: 1px;
+  height: 28px;
+  background: var(--border);
+}
+
 .yt-card__tag {
   display: flex;
   align-items: center;
